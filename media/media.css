@@ -1,0 +1,118 @@
+@media (max-width: 1200px) {
+    .card__info .title {
+        font-size: 24px;
+    }
+    .card__info .text {
+        font-size: 14px;
+    }
+    .title1 {
+        font-size: 24px;
+    }
+    .title1::after {
+        content: '';
+        height: 1px;
+        width: 43px;
+        background-color: #e7e8e9;
+        margin: 15px 0;
+    }
+    .chicken_burger p {
+        font-size: 12px;
+    }
+    .components {
+        flex-direction: column !important;
+    }
+    .title2 {
+        font-size: 14px;
+        padding-left: 0px;
+        margin-top: 15px;
+    }
+    .ingredients {
+        font-size: 9px;
+        line-height: 25px;
+        padding: 0px 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .price {
+        font-size: 40px;
+    }
+    .text_price {
+        font-size: 14px;
+    }
+    .footer img {
+        width: 120px;
+    }
+}
+
+@media (max-width:991px) {
+    .collapse.navbar-collapse {
+        display: flex !important;
+        justify-content: flex-start !important;
+    }
+    .collapse:not(.show) {
+        display: none !important;
+    }
+    .navigation li a {
+        display: block;
+        margin-top: 10px;
+    }
+    .main {
+        background-size: 40%;
+        background-position: 50% 4%;
+    }
+    .card__info .text {
+        padding: 0 10px;
+    }
+}
+@media (max-width: 767px) {
+    .main {
+        background-size: 50%;
+        background-position: 50% 1%;
+    }
+    .details {
+        flex-direction: column !important;
+    }
+    .burger_image {
+        width: 100%;
+    }
+    .title1 {
+        margin-top: 20px;
+    }
+    .price {
+        margin-top: 10px;
+    }
+    .margin {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container-fluid {
+        padding: 0 30px;
+    }
+    .main {
+        background-size: 60%;
+        background-position: 50% 1%;
+    }
+    .card__info .title {
+        font-size: 27px;
+    }
+    .card__info .text {
+        font-size: 16px;
+    }
+    .margin_xs {
+        margin-bottom: 30px;
+    }
+    input {
+        text-align: start !important;
+        padding-left: 20px !important;
+    }
+}
+@media (max-width: 370px) {
+    .container-fluid {
+        padding: 0px 15px;
+    }
+    .main {
+        background-size: 70%;
+    }
+}
